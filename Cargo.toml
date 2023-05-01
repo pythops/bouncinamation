@@ -1,9 +1,13 @@
 [package]
 name = "bouncinamation"
+description = "Bouncing DvD logo animation"
 version = "0.1.0"
 authors = ["pythops <contact@pythops.com>"]
 license = "AGPLv3"
 edition = "2021"
+readme = "README.md"
+homepage = "https://github.com/pythops/bouncinamation"
+repository = "https://github.com/pythops/bouncinamation"
 
 [dependencies]
 crossterm = "0.26.1"
