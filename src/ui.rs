@@ -48,6 +48,7 @@ pub fn render<B: Backend>(app: &mut App, frame: &mut Frame<'_, B>) {
     "#;
 
     let block = Paragraph::new(logo)
+        .style(Style::default().fg(app.color))
         .alignment(tui::layout::Alignment::Center)
         .block(Block::default().style(Style::default()));
 
